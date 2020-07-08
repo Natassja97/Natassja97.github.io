@@ -1,0 +1,42 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 233, 185);
+    background-image: url("../images/book.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: top ;
+}
+h1 {color: rgb(158, 47, 47)}
+p{
+    color: #000;
+    line-height: 1.5em;
+}
+
+img{
+    border: 2px solid gray;
+}
+.resaltar{
+    font-style: normal;
+    color: rgb(23, 23, 78);
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+a:focus{
+    border: 1px dotted #000;
+}
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: upper-roman;
+}
